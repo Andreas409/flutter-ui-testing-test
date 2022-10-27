@@ -1,4 +1,7 @@
 appId: com.example.ui_testing
 ---
 - launchApp
-- tapOn: "Press me"
+- repeat:
+    times: 3
+    commands:
+      - tapOn: "Press me"
