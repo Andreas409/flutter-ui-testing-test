@@ -1,0 +1,4 @@
+appId: com.example.ui_testing
+---
+- launchApp
+- tapOn: "Press me"
